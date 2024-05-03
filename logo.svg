@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+  <svg width="300" height="350" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="150, 18 244, 182 56, 182" fill="green" stroke-width="2"/>
+    
+    <text x="100" y="90" fill="white">A</text>
+    <style>
+      <![CDATA[
+      text{
+        dominant-baseline: hanging;
+        font: 42px serif;
+      }
+      ]]>
+    </style>
+    
+</svg>
+      
