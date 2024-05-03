@@ -43,7 +43,6 @@ inquirer.prompt([
   }
 ])
 .then( result => {
-  console.log(result);
   let shape = null;
   const text = new Text(result.textColor, result.text);
   let svg = null;
