@@ -5,16 +5,18 @@ const Text = require('./lib/text');
 const Svg = require('./lib/svg');
 const fs = require('fs');
 const inquirer = require('inquirer');
+const MaxLengthInputPrompt  = require('inquirer-maxlength-input-prompt');
 
-// Use inquirer to ask for color (color or hexadecimal number), shape (circle, triangle, and square), text for logo (characters)
+// xx Use inquirer to ask for color (color or hexadecimal number), shape (circle, triangle, and square), text for logo (characters)
 
 //xx The color is applied to the text and shape
 
 // xx Generate SVG to a .svg file with the output of "Generated logo.svg" is printed in the command line
 
-// Write jest tests
+// xx Write jest tests
 
 // Write Readme
+inquirer.registerPrompt('maxlength-input', MaxLengthInputPrompt);
 
 inquirer.prompt([
   {
@@ -29,9 +31,10 @@ inquirer.prompt([
     name: "shapeColor"
   },
   {
-    type: 'input',
+    type: 'maxlength-input',
     message: 'What type of text (up to 3 characters) would you like?',
-    name: "text"
+    name: "text",
+    maxLength: 3
   },
   {
     type: 'input',

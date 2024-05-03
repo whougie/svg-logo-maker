@@ -1,0 +1,13 @@
+<?xml version="1.0" standalone="no"?>
+  <svg width="300" height="350" version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="145" cy="120" r="85" fill="pink" />
+  <text x="108" y="100" fill="red">AAA</text>
+    <style>
+      <![CDATA[
+      text{
+        dominant-baseline: hanging;
+        font: 42px serif;
+      }
+      ]]>
+    </style>
+  </svg>
