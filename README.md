@@ -16,5 +16,8 @@ Generates logo.svg placed in the 'examples' folder.
 
 ![alt text](./images/image-1.png)
 
+[Video demo of the applicaiton](vids/SVG_Logo_Maker.webm)
+
+
 ## Test
 Run 'npm test run' to run test using Jest.
