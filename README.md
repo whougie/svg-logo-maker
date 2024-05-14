@@ -4,6 +4,7 @@
 The application generates a logo.svg to the examples folder.  The SVG file is generated from the user inputs of a shape, the shape's color, text, and the text's color.  The user is allowed to use color name or hex color.  Also, the user input up to 3 max characters for the text.
 
 GitHub URL: https://github.com/whougie/svg-logo-maker.git
+Video URL: https://drive.google.com/file/d/1eg2FNUVJf_dpK3OgSAKnhUH98xoPryWB/view
 
 ## Usage
 Run 'node index.js' to start the application.
